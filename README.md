@@ -17,7 +17,7 @@
 
 
 <a href="https://www.youtube.com/watch?v=xwxMtcv4g1Q&">
-<img src="https://github.com/circuitvalley/USB_C_Industrial_Camera_FPGA_USB3/raw/master/Hardware/Images/imx477_video.png" alt="IMX219" width="830" height="560">
+<img src="https://raw.githubusercontent.com/circuitvalley/FMC_NVMe_PCIe_Drive_Adapter/refs/heads/master/HW/Images/fpgadrive_nvme.png" alt="IMX219" width="830" height="560">
 </a>
 
 
