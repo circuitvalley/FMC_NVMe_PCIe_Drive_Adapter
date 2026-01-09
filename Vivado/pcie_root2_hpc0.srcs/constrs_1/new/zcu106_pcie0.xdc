@@ -1,7 +1,10 @@
-# ZCU106 Constrains for Both of the SSD 
+# ZCU106 Constrains for Both of the SSD on HPC0
 
 # SSD1 PCIe
-set_property PACKAGE_PIN D12 [get_ports {peripheral_reset_0}]; # LA00_CC_P
+# reset pin for Rev C Board 
+set_property PACKAGE_PIN D12 [get_ports {peripheral_reset_0}]; 
+# reset pin for Rev D Board 
+#set_property PACKAGE_PIN D16 [get_ports {peripheral_reset_0}]; 
 set_property IOSTANDARD LVCMOS18 [get_ports {peripheral_reset_0}]
 
 set_property PACKAGE_PIN V8 [get_ports {pcie_refclk_clk_p}];
