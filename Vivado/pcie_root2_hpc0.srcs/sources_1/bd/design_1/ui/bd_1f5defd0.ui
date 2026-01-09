@@ -1,0 +1,75 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.489577",
+   "Default View_TopLeft":"-129,-364",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:21.0 TLS
+#  -string -flagsOSRD
+preplace port pci_express_x4 -pg 1 -lvl 9 -x 3120 -y 270 -defaultsOSRD
+preplace port pcie_refclk -pg 1 -lvl 0 -x 0 -y 700 -defaultsOSRD
+preplace port pcie_mgt_0 -pg 1 -lvl 9 -x 3120 -y 190 -defaultsOSRD
+preplace port pcie_refclk2 -pg 1 -lvl 0 -x 0 -y 380 -defaultsOSRD
+preplace portBus peripheral_reset_0 -pg 1 -lvl 9 -x 3120 -y 390 -defaultsOSRD
+preplace portBus peripheral_reset_1 -pg 1 -lvl 9 -x 3120 -y 570 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 4 -x 1400 -y 570 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 6 -x 2220 -y 340 -defaultsOSRD
+preplace inst util_ds_buf -pg 1 -lvl 5 -x 1890 -y 700 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 5 -x 1890 -y 310 -defaultsOSRD
+preplace inst axi_smc_1 -pg 1 -lvl 3 -x 920 -y 90 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 7 -x 2620 -y 390 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -x 920 -y 330 -defaultsOSRD
+preplace inst ilvector_logic_0 -pg 1 -lvl 8 -x 2950 -y 390 -defaultsOSRD
+preplace inst ilvector_logic_1 -pg 1 -lvl 8 -x 2950 -y 570 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 7 -x 2620 -y 570 -defaultsOSRD
+preplace inst xdma_1 -pg 1 -lvl 2 -x 520 -y 260 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 1 -x 180 -y 380 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 1 -x 180 -y 230 -defaultsOSRD
+preplace inst smartconnect_1 -pg 1 -lvl 3 -x 920 -y 530 -defaultsOSRD
+preplace netloc ilvector_logic_0_Res 1 8 1 NJ 390
+preplace netloc proc_sys_reset_0_peripheral_reset 1 7 1 NJ 390
+preplace netloc util_ds_buf_IBUF_DS_ODIV2 1 5 1 2030 340n
+preplace netloc util_ds_buf_IBUF_OUT 1 5 1 2040 360n
+preplace netloc xdma_0_axi_aresetn 1 2 5 770 180 NJ 180 1750 170 NJ 170 2410
+preplace netloc xdma_0_axi_ctl_aresetn 1 6 1 N 370
+preplace netloc xdma_0_interrupt_out 1 2 5 780 200 NJ 200 NJ 200 2030J 180 2420
+preplace netloc xdma_0_interrupt_out_msi_vec0to31 1 2 5 770 770 NJ 770 NJ 770 NJ 770 2400
+preplace netloc xdma_0_interrupt_out_msi_vec32to63 1 2 5 780 440 NJ 440 1710J 490 NJ 490 2390
+preplace netloc xlconcat_0_dout 1 3 1 1060 330n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 2 5 760 220 1090 220 1740 160 NJ 160 2400
+preplace netloc zynq_ultra_ps_e_0_pl_clk1 1 4 3 NJ 600 NJ 600 2440
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 5 350 410 720 450 NJ 450 1740 390 2050
+preplace netloc proc_sys_reset_1_peripheral_reset 1 7 1 NJ 570
+preplace netloc ilvector_logic_1_Res 1 8 1 NJ 570
+preplace netloc xdma_1_axi_aclk 1 0 4 30 100 NJ 100 730 610 1100
+preplace netloc xdma_1_axi_aresetn 1 0 3 40 110 NJ 110 690
+preplace netloc xdma_1_axi_ctl_aresetn 1 2 5 740 210 NJ 210 NJ 210 2050J 190 2430J
+preplace netloc xdma_1_interrupt_out 1 2 1 760 310n
+preplace netloc xdma_1_interrupt_out_msi_vec0to31 1 2 1 740 330n
+preplace netloc xdma_1_interrupt_out_msi_vec32to63 1 2 1 690 350n
+preplace netloc util_ds_buf_0_IBUF_DS_ODIV2 1 1 1 320 260n
+preplace netloc util_ds_buf_0_IBUF_OUT 1 1 1 330 280n
+preplace netloc axi_smc_1_M00_AXI 1 3 1 1080 90n
+preplace netloc axi_smc_M00_AXI 1 5 1 N 300
+preplace netloc axi_smc_M01_AXI 1 5 1 N 320
+preplace netloc pcie_refclk_1 1 0 5 NJ 700 NJ 700 NJ 700 NJ 700 NJ
+preplace netloc xdma_0_M_AXI_B 1 2 5 780 170 1070J 150 NJ 150 NJ 150 2390
+preplace netloc xdma_0_pcie_mgt 1 6 3 NJ 270 NJ 270 NJ
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 4 1 1720 290n
+preplace netloc xdma_1_pcie_mgt 1 2 7 NJ 190 1060J 140 NJ 140 NJ 140 NJ 140 NJ 140 3100J
+preplace netloc CLK_IN_D_0_1 1 0 1 NJ 380
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 0 5 20 10 NJ 10 NJ 10 NJ 10 1700
+preplace netloc smartconnect_0_M00_AXI 1 1 1 N 220
+preplace netloc smartconnect_0_M01_AXI 1 1 1 N 240
+preplace netloc smartconnect_1_M00_AXI 1 3 1 N 530
+preplace netloc xdma_1_M_AXI_B 1 2 1 750 170n
+levelinfo -pg 1 0 180 520 920 1400 1890 2220 2620 2950 3120
+pagesize -pg 1 -db -bbox -sgen -130 0 3330 790
+"
+}
+{
+   "da_axi4_cnt":"13",
+   "da_board_cnt":"6",
+   "da_clkrst_cnt":"3",
+   "da_xdma_cnt":"1",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
