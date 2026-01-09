@@ -9,7 +9,7 @@
 - Two M Key slots with 4 Different Sizes.
 - Supports 2280, 2260, 2242, 2230 M.2 Sizes.
 - Power and Activity LED indication
-- Supported by All Xilinx boards with Fully HPC connectors.
+- Supported by All Xilinx boards with Fuly HPC connectors.
 - FMC Stackable with all unused signal pass through, Can stack more boards on top.
 - FMC HPC ANSI/VITA 57.1 compliant.
 - Board is VITA57.1 Compliant Has EEPROM to Configure voltages to support High end FPGA VADJ
